@@ -60,7 +60,7 @@ body {
     background-color: rgba(230, 230, 230, 0.945);
     margin: 15vh auto;
     width: 65vw;
-    padding: 1.5rem 2rem 2rem 2rem;
+    padding: 1.5rem 2rem 4rem 2rem;
     border-radius: 0.3rem;
     font-family: 'Quicksand', 'Montserrat', Arial;
 }
@@ -75,7 +75,7 @@ body {
     color: #8f8f8f;
     text-transform: uppercase;
     font-size: 3rem;
-    letter-spacing: 1.1rem;
+    letter-spacing: 0.6rem;
 }
 
 #about-title {
@@ -118,7 +118,7 @@ body {
     margin: 0 auto;
     line-height: 2rem;
     font-size: 1.4rem;
-    color: rgba(48, 45, 45, 0.933);
+    color: #302d2d;
 }
 
 #projects-page {
@@ -131,10 +131,18 @@ body {
     text-transform: uppercase;
     font-family: 'Montserrat', Arial;
     font-size: 1.7rem;
+    margin: 6rem;
 }
 
 #contact-page {
     display: none;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: #302d2d;
+}
+
+#contact-page a {
+    text-decoration: none;
 }
 
 
@@ -178,4 +186,25 @@ nav a {
 nav a:hover {
     text-shadow: 0.04rem 0.04rem 0.2rem #c99527;
     transform: scale(1.05);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    filter: none;
+}
+
+footer #links {
+    width: 20%;
+    text-align: center;
+}
+
+#links a {
+    margin: 0 0.5rem;
+}
+
+#links a i {
+    color: #d2d2d2;
+    font-size: 1.5rem;
 }

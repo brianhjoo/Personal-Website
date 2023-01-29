@@ -1,4 +1,5 @@
 const wrapper = document.querySelector('#wrapper');
+const footer = document.querySelector('footer');
 const modal = document.querySelector('#modal');
 const xBtn = document.querySelector('#x');
 
@@ -21,6 +22,7 @@ aboutLink.addEventListener('click', e => {
   aboutContent.style.display = 'block';
   aboutTitle.style.display = 'block';
   wrapper.style.filter = 'blur(0.2rem)';
+  footer.style.filter = 'blur(0.2rem)';
   currPage = 'about';
 });
 
@@ -29,6 +31,7 @@ projectsLink.addEventListener('click', e => {
   projectsContent.style.display = 'block';
   projectsTitle.style.display = 'block';
   wrapper.style.filter = 'blur(0.2rem)';
+  footer.style.filter = 'blur(0.2rem)';
   currPage = 'projects';
 });
 
@@ -37,12 +40,14 @@ contactLink.addEventListener('click', e => {
   contactContent.style.display = 'block';
   contactTitle.style.display = 'block';
   wrapper.style.filter = 'blur(0.2rem)';
+  footer.style.filter = 'blur(0.2rem)';
   currPage = 'contact';
 });
 
 xBtn.addEventListener('click', e => {
   modal.style.display = 'none';
   wrapper.style.filter = 'none';
+  footer.style.filter = 'none';
   if (currPage === 'about') {
     aboutContent.style.display = 'none';
     aboutTitle.style.display = 'none';
@@ -61,6 +66,7 @@ window.addEventListener('click', e => {
   if (e.target === modal) {
     modal.style.display = 'none';
     wrapper.style.filter = 'none';
+    footer.style.filter = 'none';
     if (currPage === 'about') {
       aboutContent.style.display = 'none';
       aboutTitle.style.display = 'none';
