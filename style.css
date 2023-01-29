@@ -77,6 +77,18 @@ body {
     cursor: pointer;
 }
 
+#about-page {
+    display: none;
+}
+
+#projects-page {
+    display: none;
+}
+
+#contact-page {
+    display: none;
+}
+
 h1,
 h3 {
     text-align: center;
