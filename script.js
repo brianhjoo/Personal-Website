@@ -21,8 +21,8 @@ aboutLink.addEventListener('click', e => {
   modal.style.display = 'block';
   aboutContent.style.display = 'block';
   aboutTitle.style.display = 'block';
-  wrapper.style.filter = 'blur(0.2rem)';
-  footer.style.filter = 'blur(0.2rem)';
+  wrapper.style.filter = 'blur(0.3rem)';
+  footer.style.filter = 'blur(0.3rem)';
   currPage = 'about';
 });
 
@@ -30,8 +30,8 @@ projectsLink.addEventListener('click', e => {
   modal.style.display = 'block';
   projectsContent.style.display = 'block';
   projectsTitle.style.display = 'block';
-  wrapper.style.filter = 'blur(0.2rem)';
-  footer.style.filter = 'blur(0.2rem)';
+  wrapper.style.filter = 'blur(0.3rem)';
+  footer.style.filter = 'blur(0.3rem)';
   currPage = 'projects';
 });
 
@@ -39,8 +39,8 @@ contactLink.addEventListener('click', e => {
   modal.style.display = 'block';
   contactContent.style.display = 'block';
   contactTitle.style.display = 'block';
-  wrapper.style.filter = 'blur(0.2rem)';
-  footer.style.filter = 'blur(0.2rem)';
+  wrapper.style.filter = 'blur(0.3rem)';
+  footer.style.filter = 'blur(0.3rem)';
   currPage = 'contact';
 });
 

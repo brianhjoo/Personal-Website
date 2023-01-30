@@ -50,14 +50,15 @@ body {
 #modal {
     display: none;
     position: absolute;
+    z-index: 1;
     width: 100vw;
     height: 100vh;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #modal-content {
-    background-color: rgba(230, 230, 230, 0.945);
+    background-color: rgba(230, 230, 230, 0.9);
     margin: 15vh auto;
     width: 65vw;
     padding: 1.5rem 2rem 4rem 2rem;
@@ -152,12 +153,12 @@ h3 {
 }
 
 h1 {
-    color: #e3e3e3;
+    color: #e5e5e5;
     font-family: 'Roboto Condensed', Arial;
-    font-size: 6rem;
+    font-size: 5.6rem;
     text-transform: uppercase;
-    letter-spacing: 0.8rem;
-    text-shadow: 0 0 0.15rem #ddd;
+    letter-spacing: 1.1rem;
+    text-shadow: 0 0 0.12rem #ddd;
 }
 
 h3 {
@@ -205,6 +206,6 @@ footer #links {
 }
 
 #links a i {
-    color: #d2d2d2;
+    color: #d5d5d5;
     font-size: 1.5rem;
 }
