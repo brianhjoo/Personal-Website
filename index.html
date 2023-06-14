@@ -1,74 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Brian Joo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brian Joo</title>
-  <script src="https://kit.fontawesome.com/385aa16cae.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed&family=Quicksand&display=swap"
-    rel="stylesheet">
-</head>
+				<!-- Header -->
+				<header id="header">
+						<h1>Brian Joo</h1>
+						<p>Software engineer &nbsp;&bull;&nbsp; Curious mind &nbsp;&bull;&nbsp; Problem solver</p>
+						<nav>
+							<ul>
+								<li>
+									<a href="https://www.linkedin.com/in/brianhjoo/" class="icon brands fa-linkedin" target="_blank" title="Linkedin">
+										<span class="label">LinkedIn</span>
+									</a>
+								</li>
+								<li>
+									<a href="https://github.com/brianhjoo" class="icon brands fa-github" target="_blank" title="Github">
+										<span class="label">Github</span>
+									</a>
+								</li>
+								<li>
+									<a href="./documents/Resume.pdf" class="icon solid fa-scroll" target="_blank" title="Resume">
+										<span class="label">Resume</span>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:brianhjoo@gmail.com" class="icon solid fa-envelope">
+										<span class="label">Email</span>
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<p>- Projects -</p>
+								<li>
+									<a href="https://brianhjoo-warbler.onrender.com" class="icon solid fa-dove" target="_blank" title="Warbler">
+										<span class="label">Warbler</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="icon solid fa-building" title="Jobly">
+										<span class="label">Jobly</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
 
-<body>
-
-  <div id="wrapper">
-    <header>
-      <h1>Brian Joo</h1>
-      <h3>- web developer -</h3>
-    </header>
-    <nav>
-      <a href="#" id="about-link">about</a>
-      <a href="#" id="projects-link">projects</a>
-      <a href="#" id="contact-link">contact</a>
-    </nav>
-  </div>
-
-  <div id="modal">
-    <div id="modal-content">
-      <div id="x-wrapper">
-        <h2 id="about-title">About Me</h2>
-        <h2 id="projects-title">Projects</h2>
-        <h2 id="contact-title">Contact Me</h2>
-        <span id="x">&times;</span>
-      </div>
-      <div id="about-page">
-        <img src="images/IMG-1089.jpg" alt="photo of Brian">
-        <p>Hi, I'm Brian and I am addicted to learning. It's my love for learning and also
-          technology that made me fall in love with programming and web development. I adore the creativity and the
-          challenge that comes with making things for the web. Which is why I am currently
-          enrolled in Rithm School's software engineering bootcamp.</p>
-        <br>
-        <p>Prior to this, I was almost a decade into porcelain sink manufacturing. Before that, I was getting an
-          education in clinical nutrition. And all that came after my service in the United States Army as a helicopter
-          technician.</p>
-        <br>
-        <p>So, this is going to be quite the career change, but I'm definitely ready for it!</p>
-      </div>
-      <div id="projects-page">
-        <p>projects coming soon!</p>
-      </div>
-      <div id="contact-page">
-        <p>If you need to get in touch, message me at <em>brianhjoo@gmail.com</em></p>
-        <br>
-        <p>Or, feel free to connect with me on <a href="https://www.linkedin.com/in/brianhjoo/" title="LinkedIn">LinkedIn</a>.</p>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div id="links">
-      <a href="https://github.com/brianhjoo" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/brianhjoo/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="documents/Resume.pdf" target="blank" title="Resume"><i class="fa-solid fa-scroll"></i></a>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
